@@ -17,7 +17,7 @@ here() # check that 'here' works. Else see the description of using 'here' in 'w
 setwd(here()) 
 
 library(readxl)
-data = read_xlsx("Extracted_data.xlsx")
+data = read_xlsx("Enter working directory for Data_extracted_clean.xlsx here")
 
 #change names in dataframe for easier analysis
 colnames(data)[which(colnames(data) == "Sample size of data (total)")] = "sample_size"
